@@ -1,0 +1,6 @@
+FROM python:3.12.11-slim
+WORKDIR /mybackend
+COPY . .
+EXPOSE 8000
+RUN pip install -r requirement.txt
+CMD [ "py", "manage.py", "runserver" ]
