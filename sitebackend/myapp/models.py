@@ -24,6 +24,7 @@ class Receiptentry(models.Model):
     total_tax = models.DecimalField(max_digits=12, decimal_places=2)
     customer_name = models.CharField(max_length=100)
     phone_number = models.IntegerField()
+    receipt_no = models.CharField(max_length=20)
     
     def clean(self):
         if self.amount_inquired > self.item.number_of_units:
@@ -46,7 +47,7 @@ class CompanyDet(models.Model):
     company_phoneNo = models.IntegerField()
     password = models.CharField(max_length=100)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    receipt_no = models.CharField(max_length=20)
+    
     
     def __str__(self):
         return self.company_name

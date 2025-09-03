@@ -1,0 +1,5 @@
+services:
+  mybackend:
+    image: charles/mydjangoend
+    ports:
+      - 8000:80

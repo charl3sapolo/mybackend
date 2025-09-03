@@ -3,4 +3,4 @@ WORKDIR /mybackend
 COPY . .
 EXPOSE 8000
 RUN pip install -r requirement.txt
-CMD [ "py", "manage.py", "runserver" ]
+CMD [ "python", "manage.py", "runserver", "0.0.0.0:8000" ]
