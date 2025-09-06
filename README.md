@@ -16,7 +16,7 @@ HOW TO RUN THE PROJECT(CURRENTLY IN DEV)
    >docker compose up-----------
    to run the project
 6. If you were to make changes to the project, save them and then use the command
-   >docker build -t charles/mydjangoend .------------------
+   >docker build -t charles/mydjangoend .  ------------------
    to build the project with the given changes
 
 Feel free to add anything of value :)
