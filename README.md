@@ -1,10 +1,10 @@
-WELCOME TO A INVENTORY AND RECEIPT GENERATING API
+## WELCOME TO A INVENTORY AND RECEIPT GENERATING API
 FEATURES
    >**Allows you to register a company**,
    >**Allows you to store items**,
    >**Allows you to generate a receipt**
 
-HOW TO RUN THE PROJECT(CURRENTLY IN DEV)
+## HOW TO RUN THE PROJECT(CURRENTLY IN DEV)
 1. Pull from the repository
 2. Make sure you have python installed in your system
 3. Create a virtual enviroment using the following command in your terminal
